@@ -1,0 +1,310 @@
+<html>
+  <head>
+    <title>PSU</title>
+  </head>
+  <body bgcolor="silver">
+    <form action="savedata.php" method="post" name="F1">
+      <div align="center"/>
+        <p><img src="22237009_243890519472100_1890855041_n.png" /></p>
+        <p><b><font color="blue" size="5">ใบสมัครคัดเลือกพนักงานมหาวิทยาลัยสงขลานครินทร์</font></p><br>
+        <label for="position">ตำแหน่ง &nbsp;</label>
+        <input size="30" type="text" name="position" />
+      </div>
+    </from><br>
+    <from>
+      <label for="department">คณะ/หน่วยงานที่สมัคร &nbsp;</label>
+      <input size="39" type="text" name="department" />
+      <br>
+      <p><label for="salary">เงินเดือนที่ต้องการ &nbsp;</label>
+      <input type="text" name="salary"/>&nbsp;&nbsp;บาท&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      ลักษณะงาน :</b>
+        <input name="work" type="radio" id="ft" value="f" />
+        <label for="ft">Full Time</label>
+        <input name="work" type="radio" id="pt" value="p" />
+        <label for="pt">Part Time</label></p>
+    </from>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">1.ข้อมูลทั่วไป</b></font></legend>
+        <p><label for="idcard">เลขที่บัตรประชาชน&nbsp;</label>
+        <input size="40" type="text" name="idcard" /></p>
+        <p><label for="name">ชื่อ&nbsp;</label>
+        <input type="text" name="name" />
+        <label for="lastname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;นามสกุล&nbsp;</label>
+        <input type="text" name="lastname" /></p>
+        <p>เพศ :
+        <select name="gender">
+          <option value="Value 1" selected="selected">Male</option>
+          <option value="Value 2">Female</option>
+          <option value="Value 3">Other</option><br>
+        </select>&nbsp;&nbsp;&nbsp;
+        วัน/เดือน/ปีเกิด :&nbsp;&nbsp;&nbsp;
+          <select name="day">
+            <option value="day">วัน</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;<select name="month">
+            <option value="month">เดือน</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <label for="year">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ปี</label>
+          <input size="5"type="text" name="year"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อายุ :
+          <select name="lst_age">
+            <option value="" >-</option>
+            <option value="1" >1-10</option>
+            <option value="2">11-20</option>
+            <option value="3">21-30</option>
+            <option value="4">31-40</option>
+            <option value="5">>40</option>
+          </select></p>
+        <p><label for="race">เชื้อชาติ&nbsp;</label>
+        <input type="text" name="race" />
+        <label for="nationality">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สัญชาติ&nbsp;</label>
+        <input type="text" name="nationality" /></p>
+      </fieldset>
+    </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">2.สถานที่ติดต่อได้สะดวก</b></font></legend>
+        <p><label for="home">บ้านเลขที่&nbsp;</label>
+        <input size="5" type="text" name="home" />
+        <label for="village_no">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หมู่ที่&nbsp;</label>
+        <input size="5" type="text" name="village_no" />
+        <label for="village">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;หมู่บ้าน&nbsp;</label>
+        <input type="text" name="village" />
+        <label for="alley">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ตรอก/ซอย&nbsp;</label>
+        <input type="text" name="alley" /></p>
+        <p><label for="road">ถนน&nbsp;</label>
+        <input type="text" name="road" />
+        <label for="parish">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ตำบล/แขวง&nbsp;</label>
+        <input type="text" name="parish" />
+        <label for="district">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อำเภอ&nbsp;</label>
+        <input type="text" name="district" /></p>
+        <p><label for="province">จังหวัด&nbsp;</label>
+        <input type="text" name="province" />
+        <label for="zip_code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รหัสไปรณีย์&nbsp;</label>
+        <input type="text" name="zip_code" />
+        <label for="phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โทรศัพท์&nbsp;</label>
+        <input type="text" name="phone" /></p>
+        <p><label for="email">Email&nbsp;</label>
+        <input size="40" type="text" name="email" /></p>
+      </fieldset>
+    </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">3.วุฒิการศึกษา</b></font></legend>
+        <p>ปริญญาตรี :</p>
+        <p><dd><label for="educational_background">วุฒิการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_background" />
+        <label for="branch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สาขาวิชา&nbsp;</label>
+        <input size="30" type="text" name="branch" /></p>
+        <label for="educational_institution">สถาบันการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_institution" />
+        <label for="successful">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำเร็จ พ.ศ.&nbsp;</label>
+        <input type="text" name="successful" />
+        <p><label for="GPA">เกรดเฉลี่ย&nbsp;</label>
+        <input type="text" name="GPA" /></dd></p>
+        <p>ปริญญาโท :</p>
+        <p><dd><label for="educational_background">วุฒิการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_background" />
+        <label for="branch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สาขาวิชา&nbsp;</label>
+        <input size="30" type="text" name="branch" /></p>
+        <label for="educational_institution">สถาบันการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_institution" />
+        <label for="successful">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำเร็จ พ.ศ.&nbsp;</label>
+        <input type="text" name="successful" />
+        <p><label for="GPA">เกรดเฉลี่ย&nbsp;</label>
+        <input type="text" name="GPA" /></dd></p>
+        <p>ปริญญาเอก :</p>
+        <p><dd><label for="educational_background">วุฒิการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_background" />
+        <label for="branch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สาขาวิชา&nbsp;</label>
+        <input size="30" type="text" name="branch" /></p>
+        <label for="educational_institution">สถาบันการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_institution" />
+        <label for="successful">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำเร็จ พ.ศ.&nbsp;</label>
+        <input type="text" name="successful" />
+        <p><label for="GPA">เกรดเฉลี่ย&nbsp;</label>
+        <input type="text" name="GPA" /></dd></p>
+        <p>อื่นๆ :</p>
+        <p><dd><label for="educational_background">วุฒิการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_background" />
+        <label for="branch">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สาขาวิชา&nbsp;</label>
+        <input size="30" type="text" name="branch" /></p>
+        <label for="educational_institution">สถาบันการศึกษา&nbsp;</label>
+        <input size="30" type="text" name="educational_institution" />
+        <label for="successful">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำเร็จ พ.ศ.&nbsp;</label>
+        <input type="text" name="successful" />
+        <p><label for="GPA">เกรดเฉลี่ย&nbsp;</label>
+        <input type="text" name="GPA" /></dd></p>
+      </fieldset>
+    </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">4.ประวัติการทำงาน เรียงตามลำดับครั้งสุดท้ายไปหาครั้งแรก</b></font></legend>
+        <p><u>สถานที่ทำงานครั้งสุดท้าย</u> : <input size="50" type="text" name="office" /></p>
+        <p><dd><label for="ตำแหน่ง">ตำแหน่ง&nbsp;</label>
+        <input size="30" type="text" name="ตำแหน่ง" />
+        <label for="month">&nbsp;&nbsp;ตั้งแต่เดือน&nbsp;</label>
+        <input size="15" type="text" name="month" />
+        <label for="year">&nbsp;&nbsp;ปี&nbsp;</label>
+        <input size="8" type="text" name="year" /></p>
+        <p><label for="month">ถึงเดือน&nbsp;</label>
+        <input size="15" type="text" name="month" />
+        <label for="year">&nbsp;&nbsp;ปี&nbsp;</label>
+        <input size="8" type="text" name="year" />
+        <label for="salary">&nbsp;&nbsp;เงินเดือน&nbsp;</label>
+        <input type="text" name="salary" />&nbsp;บาท</dd></p>
+        <p><u>สถานที่ทำงาน</u> : <input size="50" type="text" name="office" /></p>
+        <p><dd><label for="ตำแหน่ง">ตำแหน่ง&nbsp;</label>
+        <input size="30" type="text" name="ตำแหน่ง" />
+        <label for="month">&nbsp;&nbsp;ตั้งแต่เดือน&nbsp;</label>
+        <input size="15" type="text" name="month" />
+        <label for="year">&nbsp;&nbsp;ปี&nbsp;</label>
+        <input size="8" type="text" name="year" /></p>
+        <p><label for="month">ถึงเดือน&nbsp;</label>
+        <input size="15" type="text" name="month" />
+        <label for="year">&nbsp;&nbsp;ปี&nbsp;</label>
+        <input size="8" type="text" name="year" />
+        <label for="salary">&nbsp;&nbsp;เงินเดือน&nbsp;</label>
+        <input type="text" name="salary" />&nbsp;บาท</dd></p>
+        <p><u>สถานที่ทำงาน</u> : <input size="50" type="text" name="office" /></p>
+        <p><dd><label for="ตำแหน่ง">ตำแหน่ง&nbsp;</label>
+        <input size="30" type="text" name="ตำแหน่ง" />
+        <label for="month">&nbsp;&nbsp;ตั้งแต่เดือน&nbsp;</label>
+        <input size="15" type="text" name="month" />
+        <label for="year">&nbsp;&nbsp;ปี&nbsp;</label>
+        <input size="8" type="text" name="year" /></p>
+        <p><label for="month">ถึงเดือน&nbsp;</label>
+        <input size="15" type="text" name="month" />
+        <label for="year">&nbsp;&nbsp;ปี&nbsp;</label>
+        <input size="8" type="text" name="year" />
+        <label for="salary">&nbsp;&nbsp;เงินเดือน&nbsp;</label>
+        <input type="text" name="salary" />&nbsp;บาท</dd></p>
+      </fieldset>
+    </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">5.ภาษา</b></font></legend><br>
+      <p><b>ภาษาอังกฤษ</b> :
+      <dd><b>พูด</b>
+        <dd><input name="english" type="radio" id="1" value="1" />
+        <label for="1">ดีมาก</label>
+        <input name="english" type="radio" id="2" value="2" />
+        <label for="2">ดี</label>
+        <input name="english" type="radio" id="3" value="3" />
+        <label for="3">พอใช้</label></dd>
+      <dd><b>อ่าน</b>
+        <dd><input name="english" type="radio" id="1" value="1" />
+        <label for="1">ดีมาก</label>
+        <input name="english" type="radio" id="2" value="2" />
+        <label for="2">ดี</label>
+        <input name="english" type="radio" id="3" value="3" />
+        <label for="3">พอใช้</label></dd>
+      <dd><b>เขียน</b>
+        <dd><input name="english" type="radio" id="1" value="1" />
+        <label for="1">ดีมาก</label>
+        <input name="english" type="radio" id="2" value="2" />
+        <label for="2">ดี</label>
+        <input name="english" type="radio" id="3" value="3" />
+        <label for="3">พอใช้</label></dd>
+      <p><b>ภาษาอื่นๆ ระบุ</b> : <input size="20" type="text" name="language" />
+      <dd><b>พูด</b>
+        <dd><input name="english" type="radio" id="1" value="1" />
+        <label for="1">ดีมาก</label>
+        <input name="english" type="radio" id="2" value="2" />
+        <label for="2">ดี</label>
+        <input name="english" type="radio" id="3" value="3" />
+        <label for="3">พอใช้</label></dd>
+      <dd><b>อ่าน</b>
+        <dd><input name="english" type="radio" id="1" value="1" />
+        <label for="1">ดีมาก</label>
+        <input name="english" type="radio" id="2" value="2" />
+        <label for="2">ดี</label>
+        <input name="english" type="radio" id="3" value="3" />
+        <label for="3">พอใช้</label></dd>
+      <dd><b>เขียน</b>
+        <dd><input name="english" type="radio" id="1" value="1" />
+        <label for="1">ดีมาก</label>
+        <input name="english" type="radio" id="2" value="2" />
+        <label for="2">ดี</label>
+        <input name="english" type="radio" id="3" value="3" />
+        <label for="3">พอใช้</label></dd></p>
+    </fieldset>
+  </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">6.ความรู้ทางคอมพิวเตอร์ ระบุ</b></font></legend><br>
+        Comment : <br>
+          <textarea wrap="virtual" name="txt_comment" rows="5" cols="100">
+          </textarea>
+      </fieldset>
+    </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">7.ผลงานทางวิชาการ ระบุ</b></font></legend><br>
+        Comment : <br>
+          <textarea wrap="virtual" name="txt_comment" rows="5" cols="100">
+          </textarea>
+      </fieldset>
+    </from><br>
+    <from>
+      <fieldset>
+      <legend><b><font size="4">8.ประสบการณ์พิเศษอื่นๆ ระบุ</b></font></legend><br>
+        Comment : <br>
+          <textarea wrap="virtual" name="txt_comment" rows="5" cols="100">
+          </textarea>
+      </fieldset>
+    </from>
+    <br>
+    <br>
+    <form>
+    <font color="red" size="4"><b>**หมายเหตุ</b></font><dd><h5>กรอกขอมูลใหไดรายละเอียดมากที่สุด เพื่อประโยชนของทานเองและสามารถแนบประวัติและเอกสารอื่นๆ เพื่อใชเปนขอมูลในการพิจารณาตัวทานเพิ่มเติมพรอมกับใบสมัครได้</dd></h5>
+    <p align="center">
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </p>
+    </form>
+  </body>
+</html>
